@@ -17,6 +17,10 @@
     </article>
 </div>
 
-@defer {
+@defer (on viewport) {
     <app-comments></app-comments>
+} @placeholder {
+    <p>.</p>
+} @loading {
+    <p>Cargando comentarios...</p>
 }
